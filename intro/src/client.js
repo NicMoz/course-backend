@@ -1,6 +1,6 @@
 const http = require('http');
 
-http.get('http://192.168.252.20:3000/', (res) => {
+http.get('http://127.0.0.1:3000/', (res) => {
     console.log('Status Code: ', res.statusCode);
 
     res.on('data', (chunk) => {
